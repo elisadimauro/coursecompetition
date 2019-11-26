@@ -5,6 +5,13 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
+classlist.toggle
+
+element.classList.toggle
+
+css transitions
+style.opacity = 0
+transition:opacity 3s
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -17,7 +24,7 @@
 <body>
 
 <div>
-  <h1>Terra</h1>
+  <h1>Certifications</h1>
 
   <h2>A Guide to Sustainable Entrepreneurship</h2>
 
@@ -25,29 +32,49 @@
   <img src="duck.jpg" width="200px">
 </div>
 
+
+
+
 <div>
   <p>
-    I am currently learning to code with <a href="www.codefirstgirls.org.uk">Code First: Girls</a>. Going over everything from how the
-    internet works, to creating websites and version control with git. A lot to cover in only 8 weeks!
-    Everyone should learn to code, here are some pretty good reasons why...
+    For a complete Ecolabels listing and more information, visit the official EcoLabels Index site <a href="http://www.ecolabelindex.com/ecolabels/?st=country,gb"</a>.
     </p>
 
   <ol>
-    <li>HTML is cool</li>
-    <li id="lower">CSS is cooler</li>
-    <li id="lowest">JS is the best</li>
+    <li>Fashion Industry</li>
+    <li id="lower">Food Industry</li>
+    <li id="lowest">Software Industry</li>
   </ol>
-</div>
-
-<div class="contrast">
-  <h2><em>What do you need to create a website?</em></h2>
-  <ul>
-    <li>A computer</li>
-    <li>A text editor</li>
-    <li>A web browser</li>
-    <li>Some HTML, CSS and JS files</li>
-  </ul>
 </div>
 
 <h4>
   <a href="https://github.com/elisadimauro"> Follow my progress on github </a> </h4>
+
+
+  <h3>My Google Maps Demo</h3>
+      <!--The div element for the map -->
+      <div id="map"></div>
+      <script>
+  // Initialize and add the map
+  function initMap() {
+    // The location of Uluru
+    var uluru = {lat: -25.344, lng: 131.036};
+    // The map, centered at Uluru
+    var map = new google.maps.Map(
+        document.getElementById('map'), {zoom: 4, center: uluru});
+    // The marker, positioned at Uluru
+    var marker = new google.maps.Marker({position: uluru, map: map});
+  }
+      </script>
+      <!--Load the API from the specified URL
+      * The async attribute allows the browser to render the page while the API loads
+      * The key parameter will contain your own API key (which is not needed for this tutorial)
+      * The callback parameter executes the initMap() function
+      -->
+      <script async defer
+src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB2g8ldxtJ7lsHsoOU12MIQkIjcbV41kUY&callback=initMap">
+</script>
+
+</body>
+
+</html>
