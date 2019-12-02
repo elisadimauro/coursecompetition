@@ -3,29 +3,11 @@
   color: rgb(65,75,86);
   font-family: georgia;
   margin: 0px;
-}
-
+ }
 
  h1, h2, h3, a {
   text-align: center;
-  font-family: 'Nanum Myeongjo', serif;
-}
-
- #navBackground {
- background: #4e96b3;
- border-color: #4e96b3;
- padding: #4e96b3;
-}
-
- #navbarContainer, #navbarSupportedContent {
-  background: #4e96b3;
-  border-color: #4e96b3;
-}
-
-  /*#buttonSearch {
-  background: #4e96b3;
-  color: #fff;
-  border-color: #fff;
+    font-family: 'Prata', serif;
 }
 
 h1 {
