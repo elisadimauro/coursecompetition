@@ -1,10 +1,9 @@
  /* for comments */
- body {
-  color: rgb(65,75,86);
-  font-family: georgia;
-  margin: 0px;
+body {
+    color: rgb(65,75,86);
+    font-family: georgia;
+    margin: 0px;
 }
-
 
 h1, h2, h3 {
   text-align: center;
