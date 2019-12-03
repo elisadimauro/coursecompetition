@@ -1,0 +1,171 @@
+body {
+ color: rgb(65,75,86);
+ font-family: 'Prata', serif;
+ margin: 0px;
+
+}
+
+
+h1, h2 {
+ text-align: center;
+}
+
+h1 {
+ font-size: 5em;
+ padding-bottom: 8vh;
+ color: white;
+}
+
+h2 {
+ font-size: 2.5em;
+}
+
+
+p {
+ width: 80%;
+ margin: 3vw 3vh 10vw;
+ font-size: 2em;
+ text-align: center;
+}
+
+a {
+ color: rgb(0,0,0);
+}
+
+ol {
+ list-style: none;
+ padding: 0;
+ margin-bottom: 10%;
+ font-size: 3em;
+ display: flex;
+ justify-content: space-evenly;
+}
+
+li#lower {
+ margin-top: 7%;
+}
+
+li#lowest {
+ margin-top: 14%;
+}
+
+
+div.contrast {
+ background-color: rgb(0,0,0);
+ color: rgb(255,255,255);
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-direction: column;
+}
+
+ul {
+ list-style: none;
+ display: flex;
+}
+
+li {
+ margin: 0 20px;
+ transition: 0.6s ease;
+}
+
+li:hover {
+ font-size: 1.2em;
+ transition: 0.6s ease;
+}
+
+.row.heading h2 {
+    color: #fff;
+    font-size: 52.52px;
+    line-height: 95px;
+    font-weight: 400;
+    text-align: center;
+    margin: 0 0 40px;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+}
+ul{
+  margin:0;
+  padding:10%, 5%;
+  list-style:none;
+}
+.heading.heading-icon {
+    display: block;
+}
+.padding-lg {
+	display: block;
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+.practice-area.padding-lg {
+    padding-bottom: 55px;
+    padding-top: 55px;
+}
+.practice-area .inner{
+     border:1px solid #999999;
+	 text-align:center;
+	 margin-bottom:28px;
+	 padding:40px 25px;
+}
+
+
+.our-webcoderskull{
+  background: url("https://get.pxhere.com/photo/landscape-tree-nature-forest-grass-plant-texture-leaf-asphalt-environment-pattern-green-soil-aerial-trees-shrub-hedge-flooring-dark-green-woody-plant-land-plant-1095550.jpg") no-repeat center top / cover;")
+}
+.our-webcoderskull .cnt-block{
+   float:left;
+   width:100%;
+   background:#fff;
+   padding:30px 20px;
+   text-align:center;
+   border:2px solid #d5d5d5;
+   margin: 0 0 28px;
+}
+.our-webcoderskull .cnt-block figure{
+   width:148px;
+   height:148px;
+   border-radius:100%;
+   display:inline-block;
+   margin-bottom: 15px;
+}
+.our-webcoderskull .cnt-block img{
+   width:148px;
+   height:148px;
+   border-radius:100%;
+}
+.our-webcoderskull .cnt-block h3{
+   color:#2a2a2a;
+   font-size:20px;
+   font-weight:500;
+   padding:10px 0;
+   text-transform:uppercase;
+}
+.our-webcoderskull .cnt-block h3 a{
+  text-decoration:none;
+	color:#2a2a2a;
+}
+.our-webcoderskull .cnt-block h3 a:hover{
+	color:#337ab7;
+}
+.our-webcoderskull .cnt-block p{
+   color:#2a2a2a;
+   font-size:13px;
+   line-height:20px;
+   font-weight:400;
+}
+.our-webcoderskull .cnt-block .follow-us{
+	margin:10% 5%;
+}
+.our-webcoderskull .cnt-block .follow-us li{
+    display:inline-block;
+    text-align: center;
+	  width:auto;
+	  margin: 0 5px;
+}
+.our-webcoderskull .cnt-block .follow-us li .fa{
+   font-size:24px;
+   color:#767676;
+}
+.our-webcoderskull .cnt-block .follow-us li .fa:hover{
+   color:#025a8e;
+}
