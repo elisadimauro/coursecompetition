@@ -1,7 +1,7 @@
 body {
  color: rgb(65,75,86);
  font-family: georgia;
- margin: 0px;
+ margin: 0 px;
 }
 
 div {
@@ -29,8 +29,8 @@ img {
 }
 
 p {
- width: 40%;
- margin: 0 10vw 10vh 10vw;
+ width: 80%;
+ margin: 0 0vw 0vh 2vw;
  font-size: 2em;
 }
 
@@ -54,6 +54,7 @@ li#lower {
 li#lowest {
  margin-top: 14%;
 }
+
 
 div.contrast {
  background-color: rgb(0,0,0);
@@ -299,7 +300,7 @@ ul{
 
 
 .our-webcoderskull{
-  background: url("http://www.webcoderskull.com/img/right-sider-banner.png") no-repeat center top / cover;") 
+  background: url("http://www.webcoderskull.com/img/right-sider-banner.png") no-repeat center top / cover;")
 
 }
 .our-webcoderskull .cnt-block{
