@@ -9,13 +9,17 @@ body {
 >>>>>>> 22a03171c71509f5f542bfbc13389dd85b2651a2
 }
 
+div {
+ min-height: 100vh;
+ width: 100vw;
+}
+
 h1, h2 {
  text-align: center;
 }
 
 h1 {
  font-size: 5em;
- padding-bottom: 8vh;
 }
 
 h2 {
@@ -30,8 +34,8 @@ img {
 }
 
 p {
- width: 80%;
- margin: 0 0vw 0vh 2vw;
+ width: 40%;
+ margin: 10vw 10vh 10vw;
  font-size: 2em;
 }
 
@@ -310,12 +314,12 @@ ul{
    background:#fff;
    padding:30px 20px;
    text-align:center;
-   border:1px solid #d5d5d5;
+   border:2px solid #d5d5d5;
    margin: 0 0 28px;
 }
 .our-webcoderskull .cnt-block figure{
    width:148px;
-   height:130px;
+   height:148px;
    border-radius:100%;
    display:inline-block;
    margin-bottom: 15px;
@@ -346,10 +350,10 @@ ul{
    font-weight:400;
 }
 .our-webcoderskull .cnt-block .follow-us{
-	margin:20px 40px 0;
+	margin:20px 0 0;
 }
 .our-webcoderskull .cnt-block .follow-us li{
-  display:inline-block;
+    display:inline-block;
 	width:auto;
 	margin:0 5px;
 }
