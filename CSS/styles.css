@@ -3,14 +3,13 @@
    height: 100%;
  }
 
- /*Background image */
-.bg {
-  background-image: url("https://mdbootstrap.com/img/Photos/Horizontal/Nature/full page/img(20).jpg");
-  height: 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+img {
+  max-width: 100%;
+  height: auto;
+}
 
+
+.bg {
   color: rgb(65,75,86);
   font-family: 'prata', serif;
   margin: 0px;
