@@ -12,7 +12,10 @@ h1, h2 {
 h1 {
  font-size: 5em;
  padding-bottom: 8vh;
- color: white;
+ color: black;
+}
+h1.terraTeam {
+  color: white;
 }
 
 h2 {

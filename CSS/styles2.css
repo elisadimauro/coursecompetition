@@ -1,7 +1,7 @@
 body {
  color: rgb(65,75,86);
  font-family: 'Prata', serif;
- margin: 0px;
+ margin: 10vh, 10vw;
 }
 
 
@@ -11,6 +11,10 @@ h1, h2 {
 
 h1 {
  font-size: 5em;
+}
+
+h1.sustainable{
+  padding-top: 0.5em
 }
 
 h2 {
@@ -25,7 +29,8 @@ img {
 }
 
 p {
-  width: 100%;
+  width: 80%;
+  text-align: center;
   margin: 10vw 5vh 5vw;
   font-size: 2em;
 }
