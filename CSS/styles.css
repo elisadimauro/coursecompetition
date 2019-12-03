@@ -1,18 +1,28 @@
  /* for comments */
- body {
-  color: rgb(65,75,86);
-  font-family: georgia;
-  margin: 0px;
+ body, html {
+   height: 100%;
  }
 
- h1, h2, h3, a {
+ /*Background image */
+.bg {
+  background-image: url("https://mdbootstrap.com/img/Photos/Horizontal/Nature/full page/img(20).jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  color: rgb(65,75,86);
+  font-family: 'prata', serif;
+  margin: 0px;
+}
+
+h1, h2, h3 a{
   text-align: center;
     font-family: 'Prata', serif;
 }
 
 h1 {
   font-size: 5em;
-  color: #4e96b3;
 }
 
 h2 {
@@ -21,16 +31,6 @@ h2 {
 
 h3 {
   font-size: 1em;
-}
-
-
-#sustainablePractices {
-  display: flex;
-  height: 50vh;
-  width: auto;
-
-  padding: 20px;
-  margin: 0 auto;
 }
 
 p {
