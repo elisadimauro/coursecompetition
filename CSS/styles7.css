@@ -4,7 +4,7 @@ body {
  margin: 0px;
 
 }
-
+/* XXX:  */
 
 h1, h2 {
  text-align: center;
@@ -86,7 +86,7 @@ li:hover {
 }
 ul{
   margin:0;
-  padding:10%, 5%;
+  padding:10vh, 5vw;
   list-style:none;
 }
 .heading.heading-icon {
