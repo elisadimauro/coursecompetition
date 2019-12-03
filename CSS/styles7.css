@@ -4,7 +4,6 @@ body {
  margin: 0px;
 
 }
-/* XXX:  */
 
 h1, h2 {
  text-align: center;
@@ -23,7 +22,7 @@ h2 {
 
 p {
  width: 80%;
- margin: 3vw 3vh 10vw;
+ margin: 3vw 3vh 6vw;
  font-size: 2em;
  text-align: center;
 }
